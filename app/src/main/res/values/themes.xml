@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Inherits from an AppCompat theme -->
+    <style name="Theme.ShoppingListApp" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Add any customizations to your theme here -->
+    </style>
+</resources>

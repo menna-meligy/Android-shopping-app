@@ -1,0 +1,47 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_height="match_parent" android:layout_width="match_parent">
+        <!--//android:src="@drawable/logo.png"-->
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/logo_desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true" />
+        <TextView
+            android:id="@+id/splashName"
+            android:layout_below="@id/logoImageView"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Custom Shopping List"
+            android:textSize="24sp"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/splashNeptunCode"
+            android:layout_below="@id/splashName"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="AJ8AND"
+            android:textSize="20sp"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/splashYourName"
+            android:layout_below="@id/splashNeptunCode"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Menna Meligy"
+            android:textSize="18sp"
+            android:textAlignment="center" />
+    </RelativeLayout>
+</layout>

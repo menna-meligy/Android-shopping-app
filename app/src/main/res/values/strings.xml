@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ShoppingListApp</string>
+<!--    <string name="price_format">%1$.2f HUF</string>-->
+<!--    <string name="price_format">%.2f</string>-->
+    <string name="price_with_currency">%1$.2f %2$s</string>
+    <string name="logo_desc">Shopping Logo</string>
+    <string name="your_name_desc">Your Name</string>
+</resources>
